@@ -1,0 +1,193 @@
+body {
+  background-color: #f5f5f5;
+}
+.main {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.main .aside {
+  width: 224px;
+  margin-right: 20px;
+  padding-top: 12px;
+  background-color: #fff;
+}
+.main .aside dl {
+  padding-top: 24px;
+  padding-left: 52px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.main .aside dl dt {
+  height: 45px;
+}
+.main .aside dl dd {
+  position: relative;
+  height: 40px;
+  font-size: 14px;
+}
+.main .aside dl dd i {
+  position: absolute;
+  top: 7px;
+  left: -15px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #5eb69c;
+  opacity: 0;
+}
+.main .aside dl dd:hover {
+  color: #5eb69c;
+}
+.main .aside dl dd:hover i {
+  opacity: 1;
+}
+.main .content {
+  flex: 1;
+}
+.main .content .user {
+  height: 132px;
+  background-color: #5eb69c;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .content .user .user_left {
+  font-size: 18px;
+  padding-left: 56px;
+  color: #fff;
+  align-items: center;
+  flex: 1;
+}
+.main .content .user .user_left .pic {
+  width: 86px;
+  height: 86px;
+  margin-right: 25px;
+}
+.main .content .user .user_right {
+  flex: 1;
+  justify-content: space-around;
+}
+.main .content .user .user_right a {
+  color: #fff;
+}
+.main .content .user .user_right a .pic {
+  margin: 0 auto;
+  margin-bottom: 17px;
+  width: 32px;
+  height: 29px;
+}
+.main .content .user .user_right a:last-child .pic {
+  width: 22px;
+  height: 32px;
+}
+.main .content .pannel {
+  margin-top: 20px;
+  padding: 20px 12px;
+}
+.main .content .pannel .title {
+  height: 38px;
+  justify-content: space-between;
+}
+.main .content .pannel .title h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+.main .content .pannel .title a {
+  color: #999;
+}
+.main .content .order {
+  background-color: #fff;
+}
+.main .content .order .order_content ul li {
+  height: 137px;
+  border: 1px solid #f4f4f4;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.main .content .order .order_content ul li .goods {
+  flex: 1;
+  padding-left: 15px;
+}
+.main .content .order .order_content ul li .goods .pic {
+  width: 107px;
+  height: 107px;
+}
+.main .content .order .order_content ul li .goods .txt {
+  flex: 1;
+  width: 0;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.main .content .order .order_content ul li .goods .txt p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .content .order .order_content ul li .goods .txt p:last-child {
+  color: #999;
+}
+.main .content .order .order_content ul li .state {
+  width: 122px;
+  margin-left: 127px;
+  font-size: 14px;
+  align-items: center;
+  color: #e05e30;
+}
+.main .content .order .order_content ul li .pay {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 196px;
+  font-size: 14px;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+.main .content .order .order_content ul li .pay .price {
+  color: #9a2e1f;
+}
+.main .content .order .order_content ul li .action {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 181px;
+}
+.main .content .order .order_content ul li .action a {
+  font-size: 14px;
+}
+.main .content .order .order_content ul li .action a:first-child {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #fff;
+  background-color: #5eb69c;
+}
+.main .content .order .order_content ul li:last-child {
+  margin-bottom: 0;
+}
+.main .content .collect {
+  background-color: #fff;
+}
+.main .content .collect .title {
+  border-bottom: 1px solid #e8e8e8;
+}
+.main .content .collect .collect_goods a {
+  width: 25%;
+}
+.main .content .collect .collect_goods a .pic {
+  margin: 0 auto;
+  width: 154px;
+}
+.main .content .collect .collect_goods a .txt {
+  margin-top: 20px;
+  padding-left: 29px;
+}
+.main .content .collect .collect_goods a .txt p:first-child {
+  width: 129px;
+}
+.main .content .collect .collect_goods a .txt p:last-child {
+  color: #9a2e1f;
+}
+.main .content .collect .collect_goods a .txt p:last-child span {
+  font-size: 22px;
+}

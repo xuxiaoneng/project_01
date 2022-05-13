@@ -1,0 +1,211 @@
+.header .top {
+  height: 52px;
+  line-height: 52px;
+  background-color: #333;
+}
+.header .top .container {
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .top .container ul li {
+  color: #666;
+  font-size: 14px;
+}
+.header .top .container ul li a {
+  color: #dcdcdc;
+  padding: 0 16px;
+}
+.header .top .container ul li:last-child a {
+  padding-right: 2px;
+}
+.header .top .container ul li:last-child a::before {
+  content: "\e6eb";
+  font-family: "iconfont" !important;
+  margin-right: 8px;
+  font-size: 18px;
+  vertical-align: top;
+}
+.header .bottom {
+  padding: 30px 0;
+  align-items: center;
+}
+.header .bottom h1 {
+  width: 207px;
+  height: 70px;
+  margin-right: 40px;
+}
+.header .bottom .list {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.header .bottom .list a {
+  padding-bottom: 6px;
+  border-bottom: 1px solid transparent;
+}
+.header .bottom .list a:hover {
+  color: #27ba9b;
+  border-bottom: 1px solid #27ba9b;
+}
+.header .bottom .search {
+  position: relative;
+  margin-left: 80px;
+  margin-right: 15px;
+}
+.header .bottom .search i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+.header .bottom .search input {
+  border-bottom: 2px solid #e7e7e7;
+  width: 172px;
+  height: 30px;
+  padding-left: 20px;
+}
+.header .bottom .cart {
+  position: relative;
+}
+.header .bottom .cart.icon-cart-Empty-fill {
+  font-size: 23px;
+}
+.header .bottom .cart .count {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  width: 20px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 8px;
+  font-size: 12px;
+  background-color: #e26237;
+  color: #fff;
+}
+.footer .top {
+  height: 300px;
+  padding-top: 70px;
+  padding-bottom: 42px;
+  background-color: #fff;
+}
+.footer .top .content {
+  width: 25%;
+  text-align: center;
+}
+.footer .top .content h5 {
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+}
+.footer .top .content .contact {
+  justify-content: center;
+}
+.footer .top .content .contact .contact_1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  height: 92px;
+  border: 1px solid #eee;
+}
+.footer .top .content .contact .contact_1:first-child {
+  margin-right: 6px;
+}
+.footer .top .content .contact .contact_1 .icon {
+  width: 32px;
+  height: 28px;
+  background: url(../images/sprites.png) -250px -70px;
+  margin-bottom: 10px;
+}
+.footer .top .content .contact .contact_1:last-child .icon {
+  background: url(../images/sprites.png) -350px -70px;
+}
+.footer .top .content .contact .contact_1 p {
+  color: #999;
+}
+.footer .top .content:nth-child(3) .contact .qrcode {
+  width: 104px;
+  height: 103px;
+  border: 1px solid #eee;
+  margin-top: -10px;
+  margin-right: 20px;
+  padding: 4px 4px;
+}
+.footer .top .content:nth-child(3) .contact .download p {
+  font-size: 14px;
+  color: #999;
+}
+.footer .top .content:nth-child(3) .contact .download a {
+  display: block;
+  margin-top: 10px;
+  width: 102px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #27ba9b;
+  color: #fff;
+}
+.footer .top .content:last-child {
+  border-left: 1px solid #f2f2f2;
+}
+.footer .top .content:last-child .contact {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .top .content:last-child .contact h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 22px;
+  color: #666;
+}
+.footer .top .content:last-child .contact p {
+  font-size: 15px;
+  color: #999;
+}
+.footer .bottom {
+  background-color: #333;
+}
+.footer .bottom .container {
+  height: 345px;
+}
+.footer .bottom .container .service_top {
+  padding: 55px 0;
+}
+.footer .bottom .container .service_top ul {
+  display: flex;
+  padding: 0 38px;
+  justify-content: space-between;
+}
+.footer .bottom .container .service_top ul li {
+  font-size: 28px;
+  color: #fff;
+  align-items: center;
+}
+.footer .bottom .container .service_top ul li div {
+  width: 58px;
+  height: 58px;
+  margin-right: 18px;
+  background: url(../images/sprites.png) 0 0;
+}
+.footer .bottom .container hr {
+  border: none;
+  height: 1px;
+  background-color: #434343;
+}
+.footer .bottom .container .service_bottom {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 40px;
+}
+.footer .bottom .container .service_bottom div {
+  margin-bottom: 10px;
+}
+.footer .bottom .container .service_bottom div a {
+  color: #999;
+  padding: 0 8px;
+}
